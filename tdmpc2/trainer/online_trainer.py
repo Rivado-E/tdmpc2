@@ -75,6 +75,7 @@ class OnlineTrainer(Trainer):
 
 			# Reset environment
 			if done:
+				print(self._tds)
 				if eval_next:
 					eval_metrics = self.eval()
 					eval_metrics.update(self.common_metrics())
