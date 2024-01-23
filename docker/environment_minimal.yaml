@@ -12,6 +12,7 @@ dependencies:
   - glew
   - glib
   - setuptools=65.5.0
+  - wheel<0.40.0
   - pip==21
   - pip:
     - absl-py
